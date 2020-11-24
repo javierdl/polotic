@@ -1,0 +1,44 @@
+[
+    {
+        "model": "optometria.tipodocumento",
+        "fields": {
+            "nombre": "Documento Nacional de Identidad",
+            "nombre_corto": "DNI"
+        }
+    },
+    {
+        "model": "optometria.tipodocumento",
+        "fields": {
+            "nombre": "Libreta Cívica",
+            "nombre_corto": "LC"
+        }
+    },
+    {
+        "model": "optometria.tipodocumento",
+        "fields": {
+            "nombre": "Libreta de Enrolamiento",
+            "nombre_corto": "LE"
+        }
+    },
+    {
+        "model": "optometria.tipodocumento",
+        "fields": {
+            "nombre": "Cédula de Identidad",
+            "nombre_corto": "CI"
+        }
+    },
+    {
+        "model": "optometria.tipodocumento",
+        "fields": {
+            "nombre": "Pasaporte",
+            "nombre_corto": "Pasaporte"
+        }
+    },
+    {
+        "model": "optometria.tipodocumento",
+        "fields": {
+            "nombre": "C.U.I.L.",
+            "nombre_corto": "CUIL"
+        }
+    }
+]

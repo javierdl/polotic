@@ -5,6 +5,7 @@ from django.utils import timezone
 import datetime
 from django.template.defaultfilters import default
 
+
 # Create your models here.
 class Role(models.Model):
 #     roles = models.ManyToManyField(Role)
@@ -23,7 +24,6 @@ class Role(models.Model):
     )
     user = models.OneToOneField(User, on_delete=models.CASCADE)
     role = models.PositiveSmallIntegerField(choices=ROLE_CHOICES, primary_key=True)
-
 
 class TipoDocumento(models.Model):
     nombre = models.CharField(max_length=100)
@@ -53,6 +53,7 @@ class HistorialMedico(models.Model):
 
 
 class Producto(models.Model):
+    nombre = models.CharField(max_length=50)
     precio = models.FloatField()
 
 
